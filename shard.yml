@@ -1,19 +1,19 @@
 name: stumpy_png
-version: 5.0.0
+version: 5.0.1
 
 authors:
   - Leon Rische <leon.rische@me.com>
 
 dependencies:
   stumpy_core:
-    github: stumpycr/stumpy_core
-    version: ~> 1.9
+    github: NeuraLegion/stumpy_core
+    branch: master
 
 development_dependencies:
   minitest:
     github: ysbaddaden/minitest.cr
-    version: ~> 0.5
+    version: ~> 1.0
 
-crystal: 0.35.1
+crystal: ">= 0.36, < 2"
 
 license: MIT
